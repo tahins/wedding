@@ -1,0 +1,460 @@
+         html,
+         body {
+             margin: 0;
+             padding: 0;
+             overflow-x: hidden!important;
+             font-family: Roboto;
+            font-family: "brandon-grotesque", sans-serif;
+         }
+         
+         .spotlight {
+             font-size: 9em;
+             line-height: .8em;
+             color: #000;
+             margin: 0;
+             text-align: left;
+             font-weight: 900;
+             text-transform: uppercase;
+         }
+.fbwrap{
+width: 600px;
+margin: 0 auto;
+                padding: 2em;
+}
+         
+         .kavya h2 {
+             color: #e930a3;
+             left: -120px;
+         }
+         
+         .vineeth h2.right {
+             color: #5246fa;
+             right: 140px;
+         }
+         
+         .savethedate .info {
+             position: relative;
+         }
+         
+::-moz-selection { color: #ffd800;
+background: #333;}
+::selection { color: #ffd800; background: #333;}
+         
+         .joinus h2 {
+             color: #0fc9ae;
+             text-align: left;
+             float: left;
+             margin-left: -160px;
+             z-index: 999;
+         }
+a{
+color: #1800ca;
+}
+.likewrap{
+    position: absolute;
+    left: 2em;
+    top: 2em;
+    box-shadow: 1px 1px 50px 1px #e7e7e7;
+    padding: 1em;
+    border-radius: 2px;}
+a:hover{
+color: #371ef6;
+text-decoration: none;
+}
+         
+         .joinus h2 span {
+             display: block;
+             font-size: 20px;
+             color: #000;
+             text-align: center;
+             margin-top: -20px;
+         }
+         
+         .savethedate h2.right {
+             color: #fb205d;
+             right: 140px;
+             top: 0px;
+         }
+         
+         .animation {
+             -webkit-animation: wave 7.11111s 0.1s infinite linear;
+             -moz-animation: wave 7.11111s 0.1s infinite linear;
+             animation: wave 10s 0.1s infinite linear;
+         }
+         
+         @-webkit-keyframes wave {
+             0% {
+                 -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 transform: rotateZ(0deg) translate3d(0, 2%, 0) rotateZ(0deg);
+             }
+             100% {
+                 -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 transform: rotateZ(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+             }
+         }
+         
+         @-moz-keyframes wave {
+             0% {
+                 -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 transform: rotateZ(0deg) translate3d(0, 2%, 0) rotateZ(0deg);
+             }
+             100% {
+                 -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 transform: rotateZ(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+             }
+         }
+         
+         @-ms-keyframes wave {
+             0% {
+                 -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 transform: rotateZ(0deg) translate3d(0, 2%, 0) rotateZ(0deg);
+             }
+             100% {
+                 -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 transform: rotateZ(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+             }
+         }
+         
+         @keyframes wave {
+             0% {
+                 -webkit-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 -moz-transform: rotateZ(0deg) translate3d(0, 10%, 0) rotateZ(0deg);
+                 transform: rotateZ(0deg) translate3d(0, 2%, 0) rotateZ(0deg);
+             }
+             100% {
+                 -webkit-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 -moz-transform: rotateZ(360deg) translate3d(0, 10%, 0) rotateZ(-360deg);
+                 transform: rotateZ(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
+             }
+         }
+         
+         .savethedate h3 {
+             text-align: right;
+             position: absolute;
+             top: 2px;
+             width: 120px;
+             left: -180px;
+             margin: 0;
+             font-family: 2em;
+         }
+         
+         .savethedate .details {
+             margin-top: 50px;
+             font-size: 1.4em;
+             line-height: 1.5em;
+         }
+         
+         .details strong {
+             display: block;
+             margin-bottom: 5px;
+         }
+         
+         .savethedate .info {
+             margin-bottom: 150px;
+         }
+         
+         .section {
+             margin: 0 auto;
+             position: relative;
+         }
+         
+         .joinus h2 span {
+             font-size: 2rem;
+         }
+         
+         .shadow {
+             -webkit-box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.1);
+             box-shadow: 0px 0px 120px 0px rgba(1, 1, 1, 0.12);
+         }
+         
+         .box {
+             width: 700px;
+             height: 480px;
+             z-index: 10;
+         }
+         
+         .box2 {
+             height: 700px;
+             right: 0;
+             top: 0;
+             z-index: -9;
+         }
+         
+         .white-fill {
+             background: #fff;
+         }
+         
+         .watercolor {
+             z-index: 1;
+             top: -70px;
+             right: -70px;
+         }
+         
+         .absolute {
+             position: absolute!important;
+         }
+         
+         .details h3 {
+             text-transform: uppercase;
+             font-weight: bold;
+         }
+         
+         .logo {
+             position: absolute;
+             top: 50px;
+             left: 0;
+             font-weight: 700;
+             font-weight: 900;
+              z-index: 999;
+             width: 100%;
+			 font-size:1.2em;
+             color: #f22a62;
+ 
+         }
+.scroll {
+	    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    bottom: 40px;
+    opacity: .5;
+}
+         
+         h2 {
+             font-size: 9em;
+             text-transform: uppercase;
+             line-height: .8em;
+             font-weight: 900;
+             left: -40px;
+             top: 40px;
+         }
+         
+         .scale {
+             width: 80%;
+         }
+         
+         .scale2 {
+             width: 90%;
+         }
+         
+         .margin-top {
+             height: 100%;
+             width: auto;
+         }
+         
+         h2.right {
+             right: 40px;
+             text-align: right;
+             left: inherit;
+         }
+         
+          
+         .countdown-wrapper {
+             margin: 150px 0 0;
+         }
+         
+         .countdown-wrapper p {
+             font-size: 30px;
+             margin-left: 10px;
+         }
+         
+         #vin {
+             margin-left: -100px;
+         }
+         
+         .dance {
+             height: 650px;
+             float: right;
+             margin-right: 70px;
+         }
+         
+         .countdown h2 {
+             color: #fc32ca;
+             text-align: left;
+         }
+         
+         .countdown h2 em {
+             display: block;
+             font-size: .4em;
+             font-style: normal;
+             margin: -20px 0 0 10px;
+         }
+         
+         .and {
+             position: absolute;
+             top: 0px;
+             width: 100%;
+             text-align: center;
+             font-size: 80px;
+             font-weight: 900;
+         }
+         
+         #spotlight,
+         #photos {
+             background: url(bg1.jpg) no-repeat center top fixed;
+         }
+         
+         #countdown {
+             background: url(bg9.jpg) no-repeat bottom right;
+         }
+         
+         #facebook {
+             background: url(g10.jpg) no-repeat top right;
+         }
+         
+         #kavya {
+             background: url(bg2.jpg) no-repeat bottom right;
+         }
+         
+         #vineeth {
+             background: url(bg3.jpg) no-repeat top right;
+         }
+         
+         #vineeth .inner {
+             background: url(bg3a.jpg) no-repeat bottom left;
+         }
+         
+         #savethedate {
+             background: url(bg4.jpg) no-repeat bottom right;
+             // z-index: -999;
+         }
+         
+         #joinus {
+             background: url(bg5.jpg) no-repeat top right;
+         }
+         
+         #photos .inner {
+             background: url(photos.jpg) no-repeat center;
+             width: 100%;
+             height: 100%;
+             margin: 0 auto;
+             background-size: 800px auto;
+         }
+         
+         .section {
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+         }      
+
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+                  #kavya,#vineeth,#vineeth .inner,#savethedate,#joinus {
+                     -webkit-background-size: 100px 100px;
+             -moz-background-size: 100px 100px;
+             -o-background-size: 100px 100px;
+             background-size: 100px 100px;
+         }#vin{
+			     position: relative!important;
+    margin: 0!important;
+    width: 100%!important;}
+
+         .animation {
+             -webkit-animation: wave 7.11111s 0.1s 0 linear;
+             -moz-animation: wave 7.11111s 0.1s 0 linear;
+             animation: wave 10s 0.1s 0 linear;
+         }
+h2{
+	font-size:4em!important;}
+         
+         .box {
+             width: 90%;
+             height: 90%;
+             z-index: 10;
+			 display:none!important;
+         }
+         .watercolor{
+			 opacity:.3;
+			 position:absolute!important;}
+         .box2 {
+             height: 90%;
+             right: 0;
+             top: 0;
+ 
+         }
+.savethedate .info{
+	margin-bottom:20px;}
+#joinus img {
+     position: relative!important;
+    width: 100%;
+    margin: 0!important;
+    left: 0!important; 
+ 	 }.joinus h2 span{
+		 margin-top:20px;
+		 line-height:1em;}
+	#daysRemaining{
+		font-size:2em;}
+		.countdown h2 em{
+			margin-top:1em;}
+			
+			.fbwrap{
+				background:#fff;
+                padding: .5em;
+ 				width:100%;}
+	.dance{
+ 		opacity:.4;}
+	      .joinus h2{
+    margin-left: 0;
+    position: relative!important;
+    text-align: center;
+    margin: 30px 0 0 1px;
+		  }#photos .inner{
+			  
+			                       -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+
+			  }
+        .savethedate .details{
+        font-size: 1em;
+		margin-top:-60%;}
+        .savethedate h3{
+        position: relative;
+        margin: 0 0 15px;
+        left: 0;}
+        img{
+        max-width: 100%;}
+        .vineeth h2.right{
+        right: 0;}
+.kavya h2 {
+    left: 0;
+	top:0;
+	position:relative!important; }
+        #kav{
+        margin-left: 0;
+        width:100%;
+		margin:0;
+		padding:0;
+		position:relative!important;}
+    
+    h2{
+		font-size:6em;}
+    
+        .savethedate h2.right{
+            right: 0;
+            top: -10px;
+        
+        }
+    .spotlight{
+		font-size:4em;
+    }
+        
+    .absolute{
+		position:relative !Important
+    }
+}
+
+
+

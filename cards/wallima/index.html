@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=660px">
+    <title>Wallima Card</title>
+    <link rel="shortcut icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="card.css">
+</head>
+<body onresize="">
+<p class="card-label">Click on the Card to open</p>
+<div id="book" class="view-cover">
+    <div class="main">
+        <div class="book-font">
+            <div class="book-cover"></div>
+            <div class="book-cover-back"></div>
+        </div>
+        <div class="book-page"></div>
+        <div class="book-back"></div>
+        <div class="book-bone"></div>
+        <div class="book-top"></div>
+        <div class="book-right"></div>
+        <div class="book-bottom"></div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="card.js"></script>
+<script>
+  // resize();
+  function resize() {
+    var ratio = window.innerWidth / document.querySelector("#book").offsetWidth;
+    if (ratio >= 1) ratio = 1;
+
+    document.querySelector("#book").style.transform = "scale(" + ratio + ")";
+    console.log(ratio);
+  }
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43970194-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
